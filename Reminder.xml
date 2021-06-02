@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Reminder>
+<note>
+Portail:
+
+portail.net-plus.ca
+
+ 
+
+GMS: Gestionnaire pour sonicwall
+
+https://10.254.48.18:8443/sgms/login
+
+ 
+
+ou
+
+10.xx.xx.201:500006
+
+ 
+
+ 
+
+Sonicwall Default IP address: 192.168.168.168 (avant que ca soit configurer)
+
+UserID: admin
+
+PWD: password
+
+ 
+
+ 
+
+WIFI Connection:
+
+il y a 2 wifi
+
+ip 192.168.2.1
+
+ 
+
+1- cabinet staff :8 charatere WLAN x0 subnet 192.168.2.0/24
+
+2- cabinet Guest :8 charatere 192.168.254.0/24   DHCP
+
+ 
+
+cabinet post nat: 10.xx.xx.0/24
+
+guest post nat: 10.xx.xx.252/30
+
+ 
+
+ 
+
+Pour ce connect a distance au cabinet:
+
+ 
+
+1)
+
+Software: Cisco Anyconnect
+
+UserID: assigné
+
+PWD: assigné
+
+domaine: vpn.net-plus.ca
+
+ 
+
+2)
+
+remote desktop
+
+Local: 192.168.2.10
+
+hors local: 10.xx.xx.10
+
+ 
+
+Anyconnect pour PC
+
+https://vpn.net-plus.ca/
+
+ 
+
+Anyconnect pour MAC
+
+https://uci.service-now.com/kb_view.do?sysparm_article=KB0010200
+
+ 
+
+Anyconnect Google search:
+
+AnyConnect KB0010200
+
+ 
+
+ 
+
+ 
+
+CCD Pour mettre en service:
+
+sc create CCD binPath= "C:\CCD\CCD32.exe -s" start= demand displayName= ".CCD ACDQ Common Communication Driver"
+
+ 
+
+Toute error AIG 1 ou AIG 2 ou AIG 3 etc... transferer au poste 477 Elise Soucy.
+
+ 
+
+ 
+
+Pour nouveau Sonicwall a configurer
+
+ 
+
+On utilise SonicUtil:
+
+10.254.5.61
+
+ 
+
+UserID: admin
+
+PWAD: password
+
+ 
+
+ 
+
+Palo Alto
+
+https://10.254.5.12
+
+UserID: fgespera
+
+PWD: Waz2233$
+
+ 
+
+google DNS
+
+4.2.2.2
+
+1.1.1.1
+
+ 
+
+apres faire un flush de DNS
+
+ipconfig /flushdns dans DOS
+
+ 
+
+ 
+
+R:\Net+\Installation\Décompte des routeurs\Fichier des routeurs _septembre _2018
+
+ 
+
+Accès GMS :
+
+ 
+
+https://10.254.48.18:8443/
+
+admin  /    P$BN^vq2M9i%
+
+ 
+
+install VPN
+
+https://vpn.net-plus.ca/CACHE/stc/1/binaries/anyconnect-win-3.1.12020-web-deploy-k9.exe
+
+ 
+
+Routeur TEST :
+
+ 
+
+https://10.99.98.201:50006
+
+ 
+
+UserID: ssdadmin
+
+PWD:  #Fm2Tm.!2016
+
+vAMp.!aW#H6a
+
+K2tJmYbHs9Dq
+
+YHnXW06ph9wz
+
+ 
+
+Net+ VPN:
+
+DNS1: 10.254.44.50
+
+DNS2: 10.254.46.50
+</note>
+</Reminder>
