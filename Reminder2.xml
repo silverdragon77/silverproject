@@ -1,6 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 <Reminder>
-<Item>
-</Item>
+  <Note>
+      <NTTitle>Portail</NTTitle>
+      <NTInfo>
+        portail.net-plus.ca
+        www.net-plus.ca
+      </NTInfo>
+  </Note>
+  
+  <Note>
+      <NTTitle>GMS: Gestionnaire pour sonicwall</NTTitle>
+      <NTInfo>
+        https://10.254.48.18:8443/sgms/login
+        10.xx.xx.201:500006
+      </NTInfo>
+  </Note>
+  
+  <Troubleshoot>
+        <TSTitle>Portail Authentification</TSTitle>
+        <TSStep>
+          - N'arrive pas a s'authentifier sur le Portail.
+          - Informé Client d'utiliser son username tel que: xyz@net-plus.ca.
+          - Ca fontionne.
+        </TSStep>
+  </Troubleshoot>
+
+  <Troubleshoot>
+        <TSTitle>Bypass</TSTitle>
+        <TSStep>
+          - Besoin de faire un Bypass sur SW pour 
+          - PC IP: 
+          - Crée un NAT rules a cette effet
+          - Ca fontionne.
+          
+          - Avisé que nous allons désactivé le bypass en fin journée
+        </TSStep>
+  </Troubleshoot>
 </Reminder>
