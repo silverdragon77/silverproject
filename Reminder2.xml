@@ -19,7 +19,7 @@
   
   <Troubleshoot>
         <TSTitle>Portail Authentification</TSTitle>
-        <TSStep>
+        <TSStep Desc="Portail Authentification">
           - N'arrive pas a s'authentifier sur le Portail.
           - Informé Client d'utiliser son username tel que: xyz@net-plus.ca.
           - Ca fontionne.
@@ -28,7 +28,7 @@
 
   <Troubleshoot>
         <TSTitle>Bypass</TSTitle>
-        <TSStep>
+        <TSStep Desc="Bypass">
           - Besoin de faire un Bypass sur SW pour 
           - PC IP: 
           - Crée un NAT rules a cette effet
